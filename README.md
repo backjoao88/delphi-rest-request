@@ -6,15 +6,6 @@ This API has support only to OAuth2 Authentication.
 
 This version take advantage of Generics Methods.
 
-## :wrench: Manual Installation
-
-* To use this API, add the followings directories to the search path of your project:
-
-```
-../delphi-rest-request/Source/Core
-../delphi-rest-request/Interfaces
-```
-
 ## :key: OAuth2 Authentication
 
 Set the credentials using the ```TOAuth2Configuration``` class. 
