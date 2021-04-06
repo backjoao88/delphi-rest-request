@@ -15,32 +15,6 @@ This version take advantage of Generics Methods.
 ../delphi-rest-request/Interfaces
 ```
 
-
-## :pencil2: Samples
-
-* **GET**
-
-```pascal
-TRequest<CLASS-TYPE>
-  .New
-  .BaseUrl('BASE-URL')
-  .Resource('RESOURCE')
-  .Get
-  .Content;
-```
-
-* **POST**
-
-```pascal
-TRequest<CLASS-TYPE>
-  .New
-  .BaseUrl('BASE-URL')
-  .Resource('RESOURCE')
-  .AddBody('BODY')
-  .Post
-  .Content;
-```
-
 ## :key: OAuth2 Authentication
 
 Set the credentials using the ```TOAuth2Configuration``` class. 
